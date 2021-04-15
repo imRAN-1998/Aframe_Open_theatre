@@ -59,7 +59,7 @@ video1.addEventListener('error',(e)=>{
     console.log(e,"error!!!!!!!!!!!");
     video1.load();
 })
-aScene.addEventListener('click',(e)=>{
+document.body.addEventListener('click',(e)=>{
     console.log(e,"click")
     // if(!video1.play){
     //     video1.load();
